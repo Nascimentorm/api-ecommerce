@@ -87,16 +87,15 @@ id
 username         
 password	        
 
-   Tipo	           
-   Integer	         
-  String(80)      
-  String(80)	      
-
+Tipo	           
+Integer	         
+String(80)      
+String(80)	      
    
-   Descrição
-  Chave primária
-  Nome de usuário (único)
-  Senha do usuário
+ Descrição
+ Chave primária
+ Nome de usuário (único)
+ Senha do usuário
 
 
 
