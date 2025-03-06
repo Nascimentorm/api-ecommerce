@@ -96,7 +96,7 @@ password
    Descrição
   Chave primária
   Nome de usuário (único)
-	 Senha do usuário
+  Senha do usuário
 
 
 
