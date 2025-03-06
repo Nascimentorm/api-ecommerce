@@ -81,28 +81,64 @@ POST /api/cart/checkout → Finaliza a compra e limpa o carrinho (autenticado)
 
 📂 Estrutura do Banco de Dados
 Tabela User
-Campo	         Tipo	           Descrição
-id	         Integer	         Chave primária
-username    String(80)      Nome de usuário (único)
-password	  String(80)	       Senha do usuário
+
+Campo	        	           
+id	                
+username         
+password	        
+
+   Tipo	           
+   Integer	         
+  String(80)      
+  String(80)	      
+
+   
+   Descrição
+  Chave primária
+  Nome de usuário (único)
+	 Senha do usuário
 
 
 
 Tabela Product
-Campo           	Tipo             	Descrição
-id	             Integer	       Chave primária
-nome	         String(120)	    Nome do produto
-price           	Float        	Preço do produto
-description	       Text	       Descrição do produto
+Campo           
+id	             
+nome	        
+price           	
+description	       
+
+
+Tipo             	
+Integer	       
+String(120)	   
+Float       
+Text	       
+
+
+Descrição
+Chave primária
+Nome do produto
+Preço do produto
+Descrição do produto
 
 
 
 Tabela CartItem
-Campo	          Tipo	           Descrição
-id	           Integer       	Chave primária
-user_id	       Integer	      Chave estrangeira referenciando User.id
-product_id   	Integer        	Chave estrangeira referenciando Product.id
+Campo	          
+id	           
+user_id	      
+product_id   	
 
+   Tipo	         
+ Integer       
+ Integer	      
+ Integer        	
+
+
+Descrição
+Chave primária
+Chave estrangeira referenciando User.id
+Chave estrangeira referenciando Product.id
 
 
 📘 Documentação Swagger
